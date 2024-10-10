@@ -1,0 +1,19 @@
+{
+    "name": "dsw/dsw_qrq",
+    "description": "Generador de códigos qr",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Dsw\\DswQrq\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Etienne Santana",
+            "email": "etiennemedina@gmail.com"
+        }
+    ],
+    "require": {
+        "endroid/qr-code": "^5.1"
+    }
+}
