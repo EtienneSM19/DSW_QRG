@@ -15,6 +15,9 @@
       <input type="text" name="label" placeholder="Etiqueta del código QR...">
     </p>
     <p>
+      <input type="text" name="imgname" placeholder="Nombre de la imagen código QR">
+    </p>
+    <p>
       <input type="submit" value="Generar QR">
     </p>
   </form>

@@ -12,6 +12,7 @@ use Endroid\QrCode\Writer\PngWriter;
 
 $data = $_POST['data'];
 $label = $_POST['label'];
+$imgname = $_POST['imgname'];
 
 $result = Builder::create()
     ->writer(new PngWriter())
@@ -28,7 +29,7 @@ $result = Builder::create()
     ->validateResult(false)
     ->build();
 
-    $result->saveToFile(__DIR__.'/qrcode.png');
+    $result->saveToFile(__DIR__.'/img/'. $imgname . '.png');
 ?>
 <!DOCTYPE html>
 <html lang="en">
